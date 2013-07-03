@@ -1,7 +1,6 @@
-$navbar-BackgroundHighlight: white;
-$navbarBackground: white;
-
-
+/*$navbar-BackgroundHighlight: white; */
+/*$navbarBackground: #333;
+*/
 @import 'bootstrap';
 
 body {
@@ -10,10 +9,63 @@ body {
 }
 @import 'bootstrap-responsive';
 
-.navbar-inner {
-	@include box-shadow(none !important);
-	border: 0;
+/* gigady buttons */
+
+.btn {
+	border: none;
 }
+
+.hero-unit h2 {
+	font-weight: normal;
+}
+
+.hero-unit h1 {
+	font-weight: normal;
+}
+
+.btn-large {
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.btn-primary {
+	background-color: #008dde;
+	text-shadow: none;
+	background-image: none;
+}
+.navbar-inner {
+	/*@include box-shadow(none !important);*/
+	height: 60px;
+	min-height: 60px;
+	border: 0;
+	background-color: #333;
+	background-image: none;
+}
+
+.navbar .brand {
+	text-shadow: none;
+	color: white;
+}
+
+.navbar .navbar-inner .container {
+	margin-top: 9px;
+}
+
+.navbar .nav li a {
+	text-shadow: none;
+	color: #d3d3d3;
+}
+
+.navbar .nav li a:hover {
+	text-shadow: none;
+	color: #fff;
+}
+
+.gig-page {
+	margin-top: 20px;
+}
+
 .footer {
 	clear: both;
 	padding-top: 50px;
@@ -31,16 +83,18 @@ body {
 	font-size: 11px;
 	line-height: 1.4em;
 	float: left;
-	-webkit-border-radius: 5px;
-	-moz-border-radius: 5px;
-	border-radius: 5px;
-	box-shadow: 1px 1px 10px #444;
-	width: 214px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius:3px;
+	width: 212px;
+	border: 1px solid #ebebeb;
+	border-bottom: 3px solid #ebebeb;
+
 }
 
 .box img {
 	display: block;
-	width: 212px;
+	width: 100%;
 	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
 	border-radius: 5px;
@@ -50,9 +104,6 @@ body {
 	margin-top: 10px 0 5px;
 }
 
-.description b {
-	font-size:10px;
-}
 
 .actions {
 	font-size: 10px;
