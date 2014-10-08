@@ -10,18 +10,27 @@ body {
 }
 @import 'bootstrap-responsive';
 
+#home-hero {
+	text-align: center;
+	background-color: #ebebeb !important;
+}
 /* gigady buttons */
 
 .btn {
 	border: none;
 }
 
+.hero-unit {
+	background-color: #ebebeb !important;
+}
 .hero-unit h2 {
 	font-weight: normal;
+	margin-bottom: 35px;
 }
 
 .hero-unit h1 {
 	font-weight: normal;
+	margin-bottom: 35px;
 }
 
 .btn-large {
